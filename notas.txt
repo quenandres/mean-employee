@@ -1,6 +1,6 @@
 Video = https://www.youtube.com/watch?v=khCIunNAEHI finish
 
-inicio de segundo video https://www.youtube.com/watch?v=ccBtSAMFjto minuto 5
+inicio de segundo video https://www.youtube.com/watch?v=ccBtSAMFjto minuto 54s
 
 
 
@@ -8,7 +8,7 @@ inicio de segundo video https://www.youtube.com/watch?v=ccBtSAMFjto minuto 5
 sudo service mongod start
 
 
-//Angular
+//Angulars
 
 crear componente
 ng g c <nombre_componente>
