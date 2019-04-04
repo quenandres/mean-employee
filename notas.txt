@@ -6,3 +6,15 @@ inicio de segundo video https://www.youtube.com/watch?v=ccBtSAMFjto minuto 5
 
 #Inicializar mongo
 sudo service mongod start
+
+
+//Angular
+
+crear componente
+ng g c <nombre_componente>
+
+crear modelo
+ng g class <nombre_clase>
+
+crear servicio
+ng g s <nombre_servicio>
