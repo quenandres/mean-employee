@@ -2,10 +2,14 @@ const express = require('express');
 
 const router = express.Router();
 
-router.get('/',(req,res)=>{
-    res.json({
-        status:"Hello World"
-    });
-})
+
+const emploCtrl = require('../controllers/employee.controller');
+
+router.get('/',emploCtrl.getEmployees);
+router.post('/',emploCtrl.createEmployee);
+router.get('/:id',emploCtrl.getEmployee);
+router.put('/:id',emploCtrl.editEmployee);
+router.delete('/:id',emploCtrl.deleteEmployee);
+
 
 module.exports = router;
